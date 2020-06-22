@@ -42,6 +42,8 @@ body.-dark{
     --gray: #8b8b8b;
 }
 
+
+
 #header {
     background-color: var(--fg);
     padding: var(--margin-01);
@@ -68,18 +70,30 @@ body.-dark{
     margin: var(--margin-03);
 }
 
-#button {
-    background-color: #FF3F6B;
-    border: 1px solid var(--bg);
-    border-radius: 10%;
-    padding-top: var(--margin-h);
-    border-radius: 10%;
+.header_links {
+    text-decoration: none;
     color: var(--bg);
 }
 
-.button:hover {
+#button {
+    background-color: #FF3F6B;
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    color: var(--bg);
+    padding: var(--margin-01);
+    padding-bottom: var(--margin-hh);
+    padding-top: var(--margin-h);
+    cursor: pointer;
+}
+
+#button:hover {
     background-color: var(--black);
     color: var(--fg);
+    transition: ease-in-out .2s;
+}
+
+#button.-dark{
+    color: var(--black);
 }
 
 
@@ -93,7 +107,9 @@ body.-dark{
     text-align: center;
 }
 
-.image {
+
+
+/* .image {
     max-height: 100vh;
     width: 100%;
 }
@@ -101,22 +117,82 @@ body.-dark{
 .image:hover {
 filter: hue-rotate(55deg);
 transition: ease-in-out .4s;
-}
-/* 
-.welcome {
-    height: 80vh;
-    background-image: url(me.png);
-    width: 100%;
 } */
 
-.title_2{
+.welcome {
+    height: 100vh;
+    background-image: url(flowergirl1.png);
+    width: 100%;
+    display: block;
+    background-size: cover;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_2    {
     margin-top: 0;
+    padding: var(--margin-02);
+    padding-left: var(--margin-05);
+    padding-right: var(--margin-05);
+    font-size: var(--margin-07);
+    color: var(--bg);
+    border: solid 5px var(--bg);
+    border-radius: 30px;
+    filter: none;
+    font-weight: lighter;
+    cursor: auto;
+
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--black); */
+
+}
+
+.title_2:hover  {
+    background-color: var(--fg);
+    transition: ease-in-out .2s;
+}
+
+.contents   {
+    display: flex;
+    flex-flow: row;
+    height: 50vh;
 }
 
 .bloc {
-    display: flex;
-    flex-flow: row;
+    padding: var(--margin-10);
     flex-grow: .5;
+    background-size: cover;
+    /* filter: blur(2px); */
+}
+
+
+.bloc:first-child {
+    background-image: url(ranita2.png);
+    border-right: none;
+}
+
+.bloc:last-child    {
+    background-image: url(me.png);
+    border-left: none;
+}
+
+.text_3 {
+    margin: 0;
+    padding: var(--margin-05);
+    padding-left: var(--margin-01);
+    padding-right: var(--margin-01);
+    color: var(--bg);
+    border: solid 5px var(--bg);
+    border-radius: 30px;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.text_3:hover{
+    background-color: var(--fg);
+    transition: ease .2s;
 }
 
 h4{
