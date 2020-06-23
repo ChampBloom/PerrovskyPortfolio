@@ -42,6 +42,7 @@ body.-dark{
     --gray: #8b8b8b;
 }
 
+
 #header {
     width: 100%;
     background-color: var(--fg);
@@ -91,6 +92,28 @@ body.-dark{
 
 #button.-dark{
     color: var(--black);
+}
+
+main .wrapper {
+    display: flex;
+    flex-flow: column;
+
+}
+
+#main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row1    {
+    display: flex;
+}
+
+.pic {
+    display: flex;
+    flex-flow: row;
+    height: 100vh;
 }
 
 #footer .wrapper{

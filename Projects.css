@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --margin-01: 8px;
+    --margin-h: calc(var(--margin-01)* 0.5);
+    --margin-hh: calc(var(--margin-01)* 0.25);
+    --margin-02: calc(var(--margin-01)* 2);
+    --margin-03: calc(var(--margin-01)* 3);
+    --margin-04: calc(var(--margin-01)* 4);
+    --margin-05: calc(var(--margin-01)* 5);
+    --margin-06: calc(var(--margin-01)* 6);
+    --margin-07: calc(var(--margin-01)* 7);
+    --margin-08: calc(var(--margin-01)* 8);
+    --margin-09: calc(var(--margin-01)* 9);
+    --margin-10: calc(var(--margin-01)* 10);
+
+
+    --bg: #F8EEE4;
+    --fg: #FF3F6B;
+    --black: #000;
+    --gray: #8b8b8b;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: black;
+}
+
+body.-dark{
+    --bg: #FF3F6B;
+    --fg: #000;
+    --black: #F8EEE4;
+    --gray: #8b8b8b;
+}
+
+.content {
+    display: block;
+}
+
+.content.-hide {
+    display: none;
+}
+
+#header {
+    width: 100%;
+    background-color: var(--fg);
+    padding: var(--margin-01);
+    color: var(--bg);
+}
+
+#header .wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-left: var(--margin-05);
+    margin-right: var(--margin-05);
+}
+
+.menu {
+    font-size: var(--margin-03);
+}
+
+.item {
+    font-size: var(--margin-03);
+    margin: var(--margin-03);
+    
+    font-weight: lighter;
+}
+
+.header_links {
+    text-decoration: none;
+    color: var(--bg);
+}
+
+#button {
+    background-color: var(--fg);
+    border: 1px solid var(--bg);
+    border-radius: 10px;
+    padding-top: var(--margin-01);
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: var(--black);
+    color: var(--fg);
+    transition: ease-in-out .2s;
+}
+
+#button.-dark{
+    color: var(--black);
+}
+
+main    {
+    flex-grow: 1;
+}
+.project    {
+    margin: var(--margin-01);
+}
+
+.project_collapsible {
+    width: 100%;
+    padding: var(--margin-02);
+    background-color: var(--fg);
+    color: var(--bg);
+    border: none;
+    font-size: var(--margin-03);
+    border-radius: 10px;
+}
+
+.project_collapsible:hover {
+    background-color: var(--black);
+    transition: ease .2s;
+    color: var(--bg);
+}
+
+.sec_img img  {
+ width: 100%;
+ border-radius: 10px;
+}
+
+#footer .wrapper{
+    display: flex;
+    flex-flow: row;
+}
+
+#name {
+    padding: var(--margin-03);
+    flex-grow: 1;
+    color: var(--gray);
+}
+
+.icon {
+    padding: 0;
+    margin: var(--margin-03);
+}
