@@ -52,7 +52,6 @@ body.-dark{
 #header .wrapper {
     display: flex;
     justify-content: center;
-    
 }
 
 .title {
@@ -67,6 +66,8 @@ body.-dark{
 .item {
     font-size: var(--margin-03);
     margin: var(--margin-03);
+    
+    font-weight: lighter;
 }
 
 .header_links {
@@ -90,103 +91,6 @@ body.-dark{
 
 #button.-dark{
     color: var(--black);
-}
-
-#main {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    flex-grow: 1;
-}
-
-#main .wrapper {
-    text-align: center;
-}
-
-/* .image {
-    max-height: 100vh;
-    width: 100%;
-}
-
-.image:hover {
-filter: hue-rotate(55deg);
-transition: ease-in-out .4s;
-} */
-
-.welcome {
-    height: 100vh;
-    background-image: url(flowergirl2.png);
-    width: 100%;
-    display: block;
-    background-size: cover;
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.title_2    {
-    margin-top: 0;
-    padding: var(--margin-02);
-    font-size: var(--margin-07);
-    color: var(--bg);
-    border: solid 5px var(--bg);
-    border-radius: 30px;
-    filter: none;
-    font-weight: lighter;
-    cursor: pointer;
-    /* -webkit-text-stroke-width: .8px;
-    -webkit-text-stroke-color: var(--black); */
-}
-
-.title_2:hover  {
-    background-color: var(--fg);
-    transition: ease-in-out .2s;
-}
-
-.contents   {
-    display: flex;
-    flex-flow: row;
-    height: 50vh;
-}
-
-.bloc {
-    padding: var(--margin-10);
-    flex-grow: .5;
-    background-size: cover;
-    /* filter: blur(2px); */
-}
-
-
-.bloc:first-child {
-    background-image: url(ranita2.png);
-    border-right: none;
-}
-
-.bloc:last-child    {
-    background-image: url(me.png);
-    border-left: none;
-}
-
-.text_3 {
-    margin: 0;
-    padding: var(--margin-05);
-    padding-left: var(--margin-01);
-    padding-right: var(--margin-01);
-    color: var(--bg);
-    border: solid 5px var(--bg);
-    border-radius: 30px;
-    font-size: 2em;
-    font-weight: lighter;
-}
-
-.text_3:hover{
-    background-color: var(--fg);
-    transition: ease .2s;
-}
-
-h4{
-    font-weight: lighter;
 }
 
 #footer .wrapper{
