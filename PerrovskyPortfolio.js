@@ -13,3 +13,5 @@ function App(){
 }
 
 document.addEventListener('DOMContentLoaded', App);
+
+console.log("JS Loaded");

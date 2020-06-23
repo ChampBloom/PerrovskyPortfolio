@@ -42,9 +42,8 @@ body.-dark{
     --gray: #8b8b8b;
 }
 
-
-
 #header {
+    width: 100%;
     background-color: var(--fg);
     padding: var(--margin-01);
     color: var(--bg);
@@ -79,10 +78,7 @@ body.-dark{
     background-color: #FF3F6B;
     border: 1px solid var(--bg);
     border-radius: 10px;
-    color: var(--bg);
-    padding: var(--margin-01);
-    padding-bottom: var(--margin-hh);
-    padding-top: var(--margin-h);
+    padding-top: var(--margin-01);
     cursor: pointer;
 }
 
@@ -96,8 +92,8 @@ body.-dark{
     color: var(--black);
 }
 
-
 #main {
+    width: 100%;
     display: flex;
     flex-flow: column;
     flex-grow: 1;
@@ -106,8 +102,6 @@ body.-dark{
 #main .wrapper {
     text-align: center;
 }
-
-
 
 /* .image {
     max-height: 100vh;
@@ -134,8 +128,6 @@ transition: ease-in-out .4s;
 .title_2    {
     margin-top: 0;
     padding: var(--margin-02);
-    padding-left: var(--margin-05);
-    padding-right: var(--margin-05);
     font-size: var(--margin-07);
     color: var(--bg);
     border: solid 5px var(--bg);
@@ -143,10 +135,8 @@ transition: ease-in-out .4s;
     filter: none;
     font-weight: lighter;
     cursor: auto;
-
-    /* -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--black); */
-
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: var(--black);
 }
 
 .title_2:hover  {
@@ -211,6 +201,6 @@ h4{
 }
 
 .icon {
-    margin: var(--margin-02);
-    
+    padding: 0;
+    margin: var(--margin-03);
 }
