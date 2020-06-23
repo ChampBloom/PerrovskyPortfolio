@@ -134,9 +134,9 @@ transition: ease-in-out .4s;
     border-radius: 30px;
     filter: none;
     font-weight: lighter;
-    cursor: auto;
-    -webkit-text-stroke-width: .8px;
-    -webkit-text-stroke-color: var(--black);
+    cursor: pointer;
+    /* -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: var(--black); */
 }
 
 .title_2:hover  {
