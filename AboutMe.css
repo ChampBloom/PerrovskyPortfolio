@@ -100,7 +100,7 @@ main {
 main .wrapper {
     margin-left: var(--margin-04);
     margin-right: var(--margin-04);
-    
+    justify-content: center;
 }
 
 main .h1   {
@@ -121,6 +121,7 @@ main .image {
    justify-content: center;
 }
 
+
 #pic    {
     max-width: 250px;
     border-radius: 50%;
@@ -128,6 +129,12 @@ main .image {
 }
 
 .myself {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+p   {
+    align-content: center;
     text-align: justify;
 }
 
