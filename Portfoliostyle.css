@@ -56,8 +56,8 @@ body.-dark{
 }
 
 .title {
-    margin-left: var(--margin-05);
-    margin-right: var(--margin-05);
+    padding-left: var(--margin-05);
+    padding-right: var(--margin-05);
 }
 
 .menu {
@@ -101,17 +101,8 @@ body.-dark{
 
 #main .wrapper {
     text-align: center;
-}
-
-/* .image {
-    max-height: 100vh;
     width: 100%;
 }
-
-.image:hover {
-filter: hue-rotate(55deg);
-transition: ease-in-out .4s;
-} */
 
 .welcome {
     height: 100vh;
@@ -192,6 +183,7 @@ h4{
 #footer .wrapper{
     display: flex;
     flex-flow: row;
+    min-width: 100%;
 }
 
 #name {
