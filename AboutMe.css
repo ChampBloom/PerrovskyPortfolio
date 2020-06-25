@@ -125,7 +125,7 @@ main .image {
 #pic    {
     max-width: 250px;
     border-radius: 50%;
-
+    max-height: 250px;
 }
 
 .myself {
