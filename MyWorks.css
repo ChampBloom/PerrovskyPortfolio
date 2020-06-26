@@ -108,6 +108,7 @@ main .wrapper {
 
 .row1    {
     display: flex;
+    flex-flow: column;
 }
 
 .pic {

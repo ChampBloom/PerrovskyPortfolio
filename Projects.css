@@ -108,6 +108,7 @@ main    {
     margin: var(--margin-01);
 }
 
+
 .project_collapsible {
     width: 100%;
     padding: var(--margin-02);
@@ -122,7 +123,9 @@ main    {
     background-color: var(--black);
     transition: ease .2s;
     color: var(--bg);
+    cursor: pointer;
 }
+
 
 .sec_img img  {
  width: 100%;

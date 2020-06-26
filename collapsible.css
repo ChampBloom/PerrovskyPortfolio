@@ -116,13 +116,22 @@ main    {
     border: none;
     font-size: var(--margin-03);
     border-radius: 10px;
-    margin-top: var(--margin-10);
+    margin-top: var(--margin-01);
 }
 
 .project_collapsible:hover {
     background-color: var(--black);
     transition: ease .2s;
     color: var(--bg);
+    cursor: pointer;
+}
+
+
+.sec_text   {
+    align-content: center;
+    text-align: justify;
+    padding-left: 24%;
+    padding-right: 24%;
 }
 
 .sec_img img  {
